@@ -18,6 +18,9 @@ namespace sampleproj
              b = 5;
              int sum = a + b;
              c.writeLogger(Convert.ToString(sum));
+            
+             int diff = a - b;
+             c.writeLogger(Convert.ToString(diff));
              Console.ReadLine();
         }
     }
