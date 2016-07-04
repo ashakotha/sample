@@ -16,7 +16,7 @@ namespace sampleproj
              b = 5;
              int sum = a + b;
              Console.WriteLine(sum);
-
+             Console.ReadLine();
         }
     }
 }
